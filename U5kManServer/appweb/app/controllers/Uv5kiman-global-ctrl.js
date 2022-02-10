@@ -282,7 +282,7 @@ angular.module("Uv5kiman")
 
                 ctrl.PhoneGlobalState = response.data.tf_status;
                 ctrl.RadioGlobalState = response.data.rd_status;
-                $lserv.logged_user(response.data.logged);
+                //$lserv.logged_user(response.data.logged);
             }
                 , function (response) {
                     console.log(response);
